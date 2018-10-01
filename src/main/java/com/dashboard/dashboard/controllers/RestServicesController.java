@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.dashboard.dashboard.domain.DevelopmentBoard;
 import com.dashboard.dashboard.services.EnterProjectDetailsService;
 
-@CrossOrigin(origins="http:\\localhost:4200",maxAge=3600)
+@CrossOrigin(origins="http://localhost:4200",maxAge=3600)
 @RestController
 public class RestServicesController {
 
